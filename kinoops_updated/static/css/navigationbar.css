@@ -1,0 +1,58 @@
+#header1 {
+    font-size:50px;
+    color:#CD4444;
+}
+.glyphicon {
+    color : #A7A6A3;
+}
+
+body{
+    background: #9CE9F7;
+}
+
+.navbar-inverse {
+    background : #39ABBF;
+    color : #D3E6E0;
+}
+.nav.navbar-nav li a {
+    background : #39ABBF;
+    color : #EDE2E2;
+}
+
+
+
+.navbar-inverse .navbar-nav > .active > a{
+    color: #D3E6E0;
+    background: #8DCCEA;
+}
+.navbar-inverse .navbar-nav > .active > a:hover{
+    color: #D3E6E0;
+    background: #8DCCEA;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #D3E6E0;
+    background: #8DCCEA;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #F9FAFA;
+    background: #8DCCEA;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #8DCCEA;
+    color:#F9FAFA;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:black;
+}
+
+.row-footer {
+    background-color: #C3DBDF;
+    margin:0px auto;
+    padding:0px 0px 0px 0px;
+}

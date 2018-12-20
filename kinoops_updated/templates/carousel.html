@@ -1,0 +1,38 @@
+{% load staticfiles %}
+{% load static %}
+<div class="container">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicators -->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        {% for car in carousel %}
+            {% if forloop.counter == 1 %}
+            <div class="item active">
+            {% else %}
+            <div class="item">
+            {% endif %}
+                 <img class="img-thumbnail" src="{{ car.image.url }}" alt="Chania">
+            <div class="header-text hidden-xs">
+                <div class="col-md-12 text-center">
+                    <h1>
+                        <span><strong>{{ car.subtitle }}</strong></span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    <!-- Left and right controls -->
+
+
+</div>
+</div>
+
+</div>
+    </div>

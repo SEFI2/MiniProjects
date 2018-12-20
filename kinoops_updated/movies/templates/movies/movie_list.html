@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container">
+
+            <div class="row row-movie">
+                {% for movie in movies %}
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="media">
+                            <div class="media-middle">
+                                   <img alt="<%=item.name%>" class="media-object img-thumbnail" src="{{ movie.image.url }}"/>
+                            </div>
+                        </div>
+                    <p>
+                    <a href="<%=item.trailer%>">
+                         <button type="button" class="btn btn-info">  Смотреть трейлер  </button>
+                    </a>
+                    <button type="button" class="btn btn-danger" id = "<%=item.id%>">  Добавить в корзину  </button>
+                        </p>
+                        <h2>
+                            {{ movie.title }}
+                        </h2>
+                        <p>
+                            <strong>Режиссер:</strong> {{ movie.director }}
+                        </p>
+                        <p>
+                            <strong>Год:</strong> {{ movie.movie_date }}
+                        </p>
+                        <p>
+                            <strong>Страна:</strong> {{ movie.country }}
+                        </p>
+                        <p>
+                            <strong>Жанр:</strong> {{ movie.genre }}
+                        </p>
+                        <p>                <strong>Актеры</strong>: {{ movie.cast }}
+                        </p>
+                        <p>
+                            <em>
+                                {{ movie.overview }}
+                            </em>
+                    </p>
+                    <div class = "dropup">
+                        <button type="button" class="btn btn-success dropwdown-toggle" data-toggle="dropdown"> Смотреть бесплатно  </button>
+                        <ul class="dropdown-menu">
+                            <li> <a href="<%=item.gidonline%>">  <span class="glyphicon glyphicon-film"></span> <strong>  GIDONLINE</strong>   </a>
+                            </li>
+                            <%} %>
+                            <li><a href="<%=item.kinogo%>"> <span class="glyphicon glyphicon-film"></span> <strong>   KINOGO </strong> </a>
+                            </li>
+                            <li><a href="<%=item.namba%>">   <span class="glyphicon glyphicon-film"></span> <strong>  NAMBA</strong> </a>
+                            </li>                    <li><a href="<%=item.megogo%>">   MEGOGO</a>
+                            </li><%} %>
+                        </ul>
+                    </div>
+                    </div>
+                {% endfor %}
+        </div>
+</div>
+
+{% endblock body %}
