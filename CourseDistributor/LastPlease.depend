@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1462005541 source:c:\users\lib0038\desktop\lastproject\lastplease\main.cpp
+	"Starter.h"
+
+1461992059 source:c:\users\lib0038\desktop\lastproject\lastplease\src\datagiven.cpp
+
+1462020698 c:\users\lib0038\desktop\lastproject\lastplease\include\datagiven.h
+	<bits/stdc++.h>
+	"MapQ.h"
+
+1461992130 source:c:\users\lib0038\desktop\lastproject\lastplease\src\variables.cpp
+
+1462018375 c:\users\lib0038\desktop\lastproject\lastplease\include\variables.h
+	<bits/stdc++.h>
+
+1461995008 c:\users\lib0038\desktop\lastproject\lastplease\include\command.h
+	<bits/stdc++.h>
+	"Variables.h"
+
+1461992723 source:c:\users\lib0038\desktop\lastproject\lastplease\src\command.cpp
+
+1462008023 c:\users\lib0038\desktop\lastproject\lastplease\include\starter.h
+	"DataGiven.h"
+	"Command.h"
+	"ConstructAndStartAlgorithm.h"
+	"Output.h"
+
+1462020779 c:\users\lib0038\desktop\lastproject\lastplease\include\constructandstartalgorithm.h
+	"SuperClass.h"
+	"CoursesForEachTrack.h"
+
+1461994921 c:\users\lib0038\desktop\lastproject\lastplease\include\output.h
+
+1461994674 source:c:\users\lib0038\desktop\lastproject\lastplease\src\constructandstartalgorithm.cpp
+
+1461994912 source:c:\users\lib0038\desktop\lastproject\lastplease\src\output.cpp
+
+1461994740 source:c:\users\lib0038\desktop\lastproject\lastplease\src\starter.cpp
+
+1462020702 c:\users\lib0038\desktop\lastproject\lastplease\include\mapq.h
+	<bits/stdc++.h>
+
+1462004174 source:c:\users\lib0038\desktop\lastproject\lastplease\src\coursesforeachtrack.cpp
+
+1462018602 c:\users\lib0038\desktop\lastproject\lastplease\include\coursesforeachtrack.h
+
+1462007721 c:\users\lib0038\desktop\lastproject\lastplease\include\superclass.h
+
+1462006807 source:c:\users\lib0038\desktop\lastproject\lastplease\src\superclass.cpp
+
